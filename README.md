@@ -1,1 +1,1 @@
-# learnNumpy
+# Mastering NumPy
