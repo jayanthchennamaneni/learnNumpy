@@ -1,4 +1,4 @@
-import numpy as np  # Import the NumPy library and alias it as "np"
+import numpy as np  # Importing NumPy library and aliasing it as np
 
 print(np.__version__)  # Print the version of NumPy installed
 
