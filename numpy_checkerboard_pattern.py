@@ -1,6 +1,5 @@
 """
 
-
 This script demonstrates the creation of a checkerboard pattern using NumPy.
 
 1. Creating an 8x8 matrix filled with zeros.
