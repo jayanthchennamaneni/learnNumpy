@@ -1,29 +1,40 @@
 """
-numpy_array_operations.py
 
-This script demonstrates various array operations using NumPy.
-
-1. Creating a 1D array using arange() function.
-2. Reversing the array using slicing.
-3. Creating a 2D array using arange() and reshape() functions.
-4. Performing element-wise addition on the 2D array.
-
+This script demonstrates various operations on NumPy arrays.
 
 """
-import numpy as np  # Importing NumPy library and aliasing it as np
 
-# Creating a 1D array using arange() function
-a = np.arange(3, 45)
-print("1D Array (a):", a)
+import numpy as np
 
-# Reversing the array using slicing
-b = a[::-1]
-print("Reversed Array (b):", b)
+# np.seterr(divide='raise')
 
-# Creating a 2D array using arange() and reshape() functions
-c = np.arange(1, 10).reshape(3, 3)
-print("2D Array (c):\n", c)
+# Creating a NumPy array with a single element
+print("Example 1: Creating a NumPy array with a single element")
+print(np.array(0))
 
-# Performing element-wise addition on the 2D array
-c += 1
-print("Modified 2D Array (c + 1):\n", c)
+# Performing division on arrays containing zero
+print("\nExample 2: Performing division on arrays containing zero")
+print(np.array(0) / np.array(0))
+
+
+'''
+both operands are zero, and division by zero is undefined in mathematics, 
+the result would typically be considered undefined or a floating-point NaN (not a number).
+However, NumPy's behavior in this case is to suppress the error and return 0.
+'''
+
+# Performing floor division on arrays containing zero
+print("\nExample 3: Performing floor division on arrays containing zero")
+print(np.array(0) // np.array(0))
+
+# Creating a NumPy array containing NaN (not a number)
+print("\nExample 4: Creating a NumPy array containing NaN")
+print(np.array([np.nan]))
+
+# Converting NaN to an integer
+print("\nExample 5: Converting NaN to an integer")
+print(np.array([np.nan]).astype(int)) # Note: Converting NaN to an integer results in the minimum integer value
+
+# Converting NaN to a floating-point number
+print("\nExample 6: Converting NaN to a floating-point number")
+print(np.array([np.nan]).astype(float)) # Note: Converting NaN to a floating-point number results in NaN.
