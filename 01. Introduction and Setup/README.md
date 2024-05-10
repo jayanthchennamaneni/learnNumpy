@@ -6,17 +6,16 @@ NumPy (Numerical Python) is a powerful Python library for scientific computing t
 
 NumPy introduces the ndarray (n-dimensional array) data structure, which is a homogeneous array of fixed-size items, similar to lists but more efficient and optimized for numerical operations. The ndarray is the core data structure in NumPy, and it allows for vectorized operations, meaning operations can be performed on the entire array at once, rather than iterating over each element.
 
-**Key Features of NumPy: **
+## **Key Features of NumPy:**
+- Fast and Efficient: NumPy arrays are stored in contiguous memory blocks, allowing for efficient operations and better memory management compared to Python lists. NumPy operations are typically faster than equivalent operations on Python lists.
 
-    - **Fast and Efficient:** NumPy arrays are stored in contiguous memory blocks, allowing for efficient operations and better memory management compared to Python lists. NumPy operations are typically faster than equivalent operations on Python lists.
+- Vectorization: NumPy supports vectorized operations, which can apply mathematical operations to entire arrays at once, eliminating the need for explicit loops.
 
-    - **Vectorization:** NumPy supports vectorized operations, which can apply mathematical operations to entire arrays at once, eliminating the need for explicit loops.
+- Broadcasting: NumPy arrays can perform operations on arrays with different shapes, automatically broadcasting the smaller array across the larger array.
 
-    - **Broadcasting:** NumPy arrays can perform operations on arrays with different shapes, automatically broadcasting the smaller array across the larger array.
+- Integration with Other Libraries: NumPy integrates seamlessly with other scientific computing libraries like SciPy, Pandas, Matplotlib, and machine learning libraries like TensorFlow and PyTorch.
 
-    - **Integration with Other Libraries:** NumPy integrates seamlessly with other scientific computing libraries like SciPy, Pandas, Matplotlib, and machine learning libraries like TensorFlow and PyTorch.
-
-    - **Powerful Mathematical Functions:** NumPy provides a vast collection of mathematical functions for linear algebra, Fourier analysis, random number generation, and more.
+- Powerful Mathematical Functions: NumPy provides a vast collection of mathematical functions for linear algebra, Fourier analysis, random number generation, and more.
 
 NumPy is widely used in various fields, including machine learning, data science, image and signal processing, scientific computing, and quantum computing. Its efficient array operations and integration with other libraries make it an essential tool for numerical and scientific computing in Python.
 
@@ -57,6 +56,10 @@ After installation, you can verify that NumPy is installed correctly by importin
 import numpy as np  # Importing NumPy library and aliasing it as np
 
 print(np.__version__)  # Print the version of NumPy installed
+
+# Print the NumPy build configuration information
+# This includes details such as compiler information, BLAS and LAPACK libraries, and CPU architecture
+np.show_config()
 ```
 
 ### Additional Resources
