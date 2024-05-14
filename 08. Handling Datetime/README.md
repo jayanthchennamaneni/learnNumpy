@@ -51,24 +51,24 @@ The timedelta64 data type represents time intervals/durations in NumPy arrays. K
 
 **Timedelta Arithmetic**: 
 
-    ```python
-    # Use NumPy's timedelta functions to create timedeltas, perform arithmetic operations with timedeltas, and apply them to datetime arrays:
+```python
+# Use NumPy's timedelta functions to create timedeltas, perform arithmetic operations with timedeltas, and apply them to datetime arrays:
 
-    # Create a datetime array
-    dates = np.array(['2024-05-10', '2024-05-11'], dtype='datetime64')
-    
-    # Create a timedelta object
-    delta = np.timedelta64(1, 'D')
+# Create a datetime array
+dates = np.array(['2024-05-10', '2024-05-11'], dtype='datetime64')
 
-    # Add timedelta to datetime array
-    new_dates = dates + delta
-    ```
-## combination of both 
+# Create a timedelta object
+delta = np.timedelta64(1, 'D')
+
+# Add timedelta to datetime array
+new_dates = dates + delta
+```
+
+## Combination of both 
 
 NumPy supports arithmetic operations between datetime64 and timedelta64 objects, enabling date/time calculations:
 
 ```python
-
 # Datetime + Timedelta
 dt = np.datetime64('2023-05-11T12:30') 
 td = np.timedelta64(2, 'D')
@@ -83,6 +83,5 @@ duration = dt1 - dt2  # 1 day, 4:30:00
 ## Resources
 
 - NumPy Documentation: [Datetime support](https://numpy.org/doc/stable/reference/arrays.datetime.html)
-- NumPy Documentation: [Timedelta support](https://numpy.org/doc/stable/reference/arrays.datetime.html#timedelta-support)
 
 ---

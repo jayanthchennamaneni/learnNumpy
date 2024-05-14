@@ -14,10 +14,8 @@ Examples:
 
 ```python
 # Example Scalar and Array broadcasting
-
 a = np.array([1, 2, 3])
 b = 3           # The scalar b is treated as a 0-dimensional array and is broadcast to match a's shape.
-
 c = a + b  # Result: [4, 5, 6]
 ```
 
@@ -25,13 +23,11 @@ c = a + b  # Result: [4, 5, 6]
 # 1D Array and 2D Array
 a = np.array([[1, 2, 3], [4, 5, 6]])
 b = np.array([10, 20, 30])          # the 1D array b is broadcast across the rows of a to create a compatible 2D array.
-
 c = a + b  # Result: [[11, 22, 33], [14, 25, 36]]
 ```
 
 ```python
 # 2D Arrays with Different Shapes
-
 a = np.array([[1, 2], [3, 4]])
 b = np.array([[10, 20, 30], [40, 50, 60]])
 c = a + b  # Error: Shapes (2, 2) and (2, 3) are incompatible

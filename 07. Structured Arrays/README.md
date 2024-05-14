@@ -25,7 +25,6 @@ structured arrays can be created by defining a data type with named fields and t
 Use NumPy's functions to create structured arrays with specified field names and data types:
 
 ```python  
- 
 # Define data types for structured array fields
 dtypes = [('name', 'S10'), ('age', int), ('weight', float)]
 
@@ -40,7 +39,6 @@ print(data)
 Use NumPy's array manipulation and statistical functions to perform operations on structured arrays:
 
 ```python
-
 # Accessing fields of structured arrays
 print(data['name'])
 
