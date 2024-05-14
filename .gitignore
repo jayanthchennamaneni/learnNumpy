@@ -2,5 +2,8 @@ env/
 
 .DS_Store
 old/
+ff.py
+.gitignore
+
 
 __pycache__/
