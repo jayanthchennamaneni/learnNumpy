@@ -27,12 +27,12 @@ Use NumPy's functions to compute descriptive statistics for your data arrays:
     - **np.amax():** Computes the maximum value along the specified axis.
     - **np.ptp():** Computes the range (maximum - minimum) along the specified axis.
 
-    ```python
-    # Compute mean, median, and mode
-    data = np.array([1, 2, 3, 4, 5])
-    print(np.mean(data))
-    print(np.median(data))
-    ```
+```python
+# Compute mean, median, and mode
+data = np.array([1, 2, 3, 4, 5])
+print(np.mean(data))
+print(np.median(data))
+```
 
 ## Statistical Functions
 
@@ -41,13 +41,13 @@ Utilize NumPy's functions to perform various statistical calculations:
     - **np.corrcoef():** Computes the correlation coefficient between two arrays.
     - **np.cov():** Computes the covariance matrix between arrays.
 
-    ```python
-    # Compute correlation and covariance
-    data1 = np.array([1, 2, 3, 4, 5])
-    data2 = np.array([5, 4, 3, 2, 1])
-    print(np.corrcoef(data1, data2))
-    print(np.cov(data1, data2))
-    ```
+```python
+# Compute correlation and covariance
+data1 = np.array([1, 2, 3, 4, 5])
+data2 = np.array([5, 4, 3, 2, 1])
+print(np.corrcoef(data1, data2))
+print(np.cov(data1, data2))
+```
 
 ## Aggregation and Reduction Operations
 
@@ -56,18 +56,16 @@ Apply aggregation and reduction operations to your data arrays:
     - **np.average():** Computes the weighted average along the specified axis, with optional weights.
     - **np.mean():** Computes the arithmetic mean, which is the same as np.average() without weights.
 
-    ```python
-    # Sum and average data
-    data = np.array([[1, 2], [3, 4], [5, 6]])
-    print(np.sum(data, axis=0))
-    print(np.mean(data, axis=1))
-    ```
+```python
+# Sum and average data
+data = np.array([[1, 2], [3, 4], [5, 6]])
+print(np.sum(data, axis=0))
+print(np.mean(data, axis=1))
+```
 
 ## Resources
 
 - NumPy Documentation: [Statistical functions](https://numpy.org/doc/stable/reference/routines.statistics.html)
-- NumPy Tutorial: [Descriptive statistics](https://numpy.org/doc/stable/user/quickstart.html#statistics)
-- NumPy User Guide: [Aggregating arrays](https://numpy.org/doc/stable/user/basics.broadcasting.html#aggregating-arrays)
 
 ---
 
