@@ -198,6 +198,7 @@ def custom_sum(array):
 array = np.random.rand(1000)
 result = np.sum(array)
 ```
+---
 
 ## Common Pitfalls
 
