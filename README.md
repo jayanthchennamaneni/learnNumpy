@@ -1,6 +1,6 @@
 # LearnNumPy
 
-Hello! This repository is designed to act as a resource to the fundamentals and advanced techniques of NumPy, a powerful library for numerical computing in Python. Below is an outline of the chapters covered in this project.
+ LearnNumPy!!! This repository is designed to act as a resource to the fundamentals and advanced techniques of NumPy, a powerful library for numerical computing in Python. Below is an outline of the chapters covered in this project.
 
 ## Table of Contents
 
@@ -136,7 +136,6 @@ Learn how to Integrate Numpy with other libraries
 - **Best Practices in NumPy**: Guidelines for writing efficient and effective NumPy code.
 - **Common Pitfalls**: Avoid common mistakes and pitfalls when using NumPy.
 
----
 
 This structured outline, will give a comprehensive understanding of NumPy and its applications in various fields. Each chapter contains detailed explanations, examples, and practical applications to reinforce your learning.
 
