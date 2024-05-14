@@ -12,7 +12,7 @@ Structured arrays are NumPy arrays where each element can have different data ty
 
 - **Tabular Data:** They are well-suited for representing and manipulating tabular data with multiple columns of varying data types.
 
-- **Data Analysis:**Structured arrays provide efficient data containers for performing operations on entire datasets at once.
+- **Data Analysis:** Structured arrays provide efficient data containers for performing operations on entire datasets at once.
 
 - **Memory Efficiency:** They store heterogeneous data in a compact format, useful for large datasets.
 
@@ -49,6 +49,5 @@ Use NumPy's array manipulation and statistical functions to perform operations o
 ## Resources
 
 - NumPy Documentation: [Structured arrays](https://numpy.org/doc/stable/user/basics.rec.html)
-- NumPy Tutorial: [Structured arrays](https://numpy.org/doc/stable/user/basics.rec.html#structured-arrays)
 
 ---
