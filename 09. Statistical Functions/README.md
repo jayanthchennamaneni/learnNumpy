@@ -17,15 +17,15 @@ NumPy offers a wide range of statistical functions to analyze data arrays, compu
 
 Use NumPy's functions to compute descriptive statistics for your data arrays:
 
-    - **np.mean():** Computes the arithmetic mean along the specified axis.
-    - **np.median():** Computes the median along the specified axis.
-    - **np.std():** Computes the standard deviation along the specified axis.
-    - **np.var():** Computes the variance along the specified axis.
-    - **np.percentile():** Computes the q-th percentile of the data along the specified axis.
-    - **np.quantile():** Computes the q-th quantile of the data along the specified axis.
-    - **np.amin():** Computes the minimum value along the specified axis.
-    - **np.amax():** Computes the maximum value along the specified axis.
-    - **np.ptp():** Computes the range (maximum - minimum) along the specified axis.
+- **np.mean():** Computes the arithmetic mean along the specified axis.
+- **np.median():** Computes the median along the specified axis.
+- **np.std():** Computes the standard deviation along the specified axis.
+- **np.var():** Computes the variance along the specified axis.
+- **np.percentile():** Computes the q-th percentile of the data along the specified axis.
+- **np.quantile():** Computes the q-th quantile of the data along the specified axis.
+- **np.amin():** Computes the minimum value along the specified axis.
+- **np.amax():** Computes the maximum value along the specified axis.
+- **np.ptp():** Computes the range (maximum - minimum) along the specified axis.
 
 ```python
 # Compute mean, median, and mode
@@ -38,8 +38,8 @@ print(np.median(data))
 
 Utilize NumPy's functions to perform various statistical calculations:
 
-    - **np.corrcoef():** Computes the correlation coefficient between two arrays.
-    - **np.cov():** Computes the covariance matrix between arrays.
+- **np.corrcoef():** Computes the correlation coefficient between two arrays.
+- **np.cov():** Computes the covariance matrix between arrays.
 
 ```python
 # Compute correlation and covariance
@@ -53,8 +53,8 @@ print(np.cov(data1, data2))
 
 Apply aggregation and reduction operations to your data arrays:
 
-    - **np.average():** Computes the weighted average along the specified axis, with optional weights.
-    - **np.mean():** Computes the arithmetic mean, which is the same as np.average() without weights.
+- **np.average():** Computes the weighted average along the specified axis, with optional weights.
+- **np.mean():** Computes the arithmetic mean, which is the same as np.average() without weights.
 
 ```python
 # Sum and average data
