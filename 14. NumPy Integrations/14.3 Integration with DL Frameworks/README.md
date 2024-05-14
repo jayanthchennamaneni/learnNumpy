@@ -115,7 +115,4 @@ for epoch in range(10):
     
     print(f"Epoch {epoch+1}, Loss: {loss.item()}")
 ```
-
-These README files should provide a comprehensive resource for users looking to integrate NumPy with visualization, machine learning, and deep learning libraries in your LearnNumPy project on GitHub.
-
 --- 

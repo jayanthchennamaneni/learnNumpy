@@ -128,12 +128,6 @@ NumPy's integration with visualization libraries like Matplotlib offers a conven
 
 For more advanced exploratory data analysis techniques and visualization options, consider exploring other Python libraries such as Pandas, Seaborn, and Plotly, which offer more comprehensive EDA capabilities and interactive visualization features.
 
-### Resources
-
-1. [Data Visualization with NumPy](#data-visualization-with-numpy)
-2. [Integrating NumPy with Visualization Libraries](#integrating-numpy-with-visualization-libraries)
-3. [Plotting NumPy Arrays and Results of Computations](#plotting-numpy-arrays-and-results-of-computations)
-
 ---
 
 
